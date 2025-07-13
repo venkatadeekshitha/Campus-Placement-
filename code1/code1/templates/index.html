@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+</head>
+<body>
+    <form action="{{ url_for('add') }}" method="POST">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"><br>
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender"><br>
+
+        <label for="stream">Stream:</label>
+        <input type="text" id="stream" name="stream"><br>
+
+        <label for="internship">Internship:</label>
+        <input type="text" id="internship" name="internship"><br>
+
+        <label for="cgpa">CGPA:</label>
+        <input type="text" id="cgpa" name="cgpa"><br>
+
+        <label for="hostel">Hostel:</label>
+        <input type="text" id="hostel" name="hostel"><br>
+
+        <label for="backlogs">History of backlogs:</label>
+        <input type="text" id="backlogs" name="backlogs"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
