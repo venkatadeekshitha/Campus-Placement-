@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+seaborn
+svc
+DecisionTreeClassifier
+LogisticRegression
+RandomForestClassifier
+kNeighborsClassifier
+confusion_matrix
+cross_val_score
+train_test_split
+warnings
