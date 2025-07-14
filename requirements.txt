@@ -2,13 +2,5 @@ numpy
 pandas
 matplotlib
 seaborn
-svc
-DecisionTreeClassifier
 scikit-learn
-RandomForestClassifier
-kNeighborsClassifier
-confusion_matrix
-cross_val_score
-train_test_split
-warnings
 gunicorn
