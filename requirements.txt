@@ -4,7 +4,7 @@ matplotlib
 seaborn
 svc
 DecisionTreeClassifier
-LogisticRegression
+scikit-learn
 RandomForestClassifier
 kNeighborsClassifier
 confusion_matrix
